@@ -1,0 +1,38 @@
+li.todo {
+	cursor: pointer;
+}
+
+li.todo.done input { 
+	text-decoration: line-through;
+}
+
+li.todo b.urgent { 
+	color: red;
+}
+
+li.todo b.tags { 
+	color: #4A9CBA;
+}
+
+li.todo input {
+	border: 0;
+}
+
+#help {
+  	position: absolute;
+	top: 25px;
+	right: 25px;
+}
+
+#help ul {
+	padding-left: 15px;
+}
+
+ul.shortcuts li {
+	list-style-type: none;
+	list-style-position: outside;
+}
+
+ul.shortcuts li pre {
+	margin: 4px 0;
+}

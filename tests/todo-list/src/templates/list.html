@@ -1,0 +1,23 @@
+<div>
+	<div id="help">
+		<strong>Add a new todo</strong>
+		<ul
+			id="shortcuts-add"
+			g-type="list"
+			g-bind-html="help.add"
+			class="shortcuts"
+		></ul>
+		<strong>Navigate/Orgianizate/Modify todos</strong>
+		<ul
+			id="shortcuts-list"
+			g-type="list"
+			g-bind-html="help.list"
+			class="shortcuts"
+		></ul>
+	</div>
+	<ul
+		id="list"
+		g-type="list"
+		g-bind="todos"
+	></ul>
+</div>
